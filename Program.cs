@@ -11,8 +11,7 @@ namespace gamocda
             //int masivshi vinaxav chars radgan pirdapir ASCII - shi sheinaxos    
             int[] vowels = new int[5] {'A','E','I','O','U'};
             
-            //count[0] iyos xmovani
-            //count[1] iyos tanxmovani
+            
             int vowelCount = 0;
             int consonantCount = 0;
 
@@ -22,7 +21,7 @@ namespace gamocda
             //moacilebs yvela space-s
             str = str.Replace(" ", "");
 
-            //nebismier simbolos garda asosa daaignorebs da sheinaxavs formattedshi
+            //daaignorebs nebismier simbolos garda asoebisa A-dan Z-mde
             foreach(char ch in str)
             {
                 for(int i = 65; i < 65 + 26; i++)
